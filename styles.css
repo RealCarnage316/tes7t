@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Rubik+Glitch&family=Rubik+Storm&display=swap');
+*
+{
+    font-family: 'Lobster', cursive;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Rubik Storm', cursive;
+}
+
+:root {
+    --clr-dark: #070a12;
+    --clr-light: #f9f9fb;
+    --clr-accent: #f43f70;
+    --clr-rgba: rgba(244, 63, 112, 0.2);
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    word-spacing: 1.4px;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+  }
+  
+  section {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    /* border-bottom: 5px solid var(--clr-dark); */
+  }
+
+  .btn{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: var(--clr-accent);
+    background-color: var(--clr-rgba);
+
+  }
